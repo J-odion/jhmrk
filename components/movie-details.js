@@ -3,7 +3,7 @@ export default function MovieDetails() {
     title: "Across The Valley",
     tagline: "A love thriller that will be hitting your screens soon",
     director: "JOHNMARK MHENGA IYOO",
-    releaseYear: "2023",
+    releaseYear: "2025",
     duration: "2h 15m",
     genres: ["Romance", "Drama", "Thriller"],
     language: "English",
@@ -17,7 +17,7 @@ export default function MovieDetails() {
     trembling adversity from someone who would stand his ground to see that his childhood love is not married out
     to an estranged corper who thinks he is qualified to marry the chief's daughter because of the community
     acceptance.`,
-    productionInfo: `Filmed on location in Benue State, Nigeria. Production completed in December 2022.`,
+    productionInfo: `Filmed on location in Benue State, Nigeria. Production completed in December 2024.`,
   }
 
   return (
