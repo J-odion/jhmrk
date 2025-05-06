@@ -32,8 +32,8 @@ export default function CastList() {
     <div className="cast-grid">
       {cast.map((person, index) => (
         <div key={index} className="cast-card hover:shadow-md transition-shadow">
-          <h3 className="font-bold text-base md:text-lg truncate">{person.name}</h3>
-          <p className="text-gray-600 text-sm md:text-base">as {person.role}</p>
+          <h3 className="font-bold text-base md:text-sm truncate">{person.name}</h3>
+          <p className="text-gray-600 text-sm md:text-xs">as {person.role}</p>
         </div>
       ))}
     </div>

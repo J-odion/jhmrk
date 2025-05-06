@@ -1,6 +1,10 @@
 export default function CrewList() {
   const crew = [
     { name: "JOHNMARK MHENGA IYOO", role: "PRODUCER/DIRECTOR" },
+    { name: "Dr Ali Garba", role: "Executive Producer" },
+    { name: "Chike Nwoffiah", role: "Consulting Producer" },
+    { name: "John Agba", role: "Associate Producer" },
+    { name: "Ahmed Saleh", role: "Associate Producer" },
     { name: "KABIRU BUHARI", role: "LOCATION MANAGER/CORDINATOR" },
     { name: "CHIA PAULENS", role: "D.O.P" },
     { name: "EMMANUEL PETER", role: "Camera Technician" },
@@ -31,8 +35,8 @@ export default function CrewList() {
     <div className="cast-grid">
       {crew.map((person, index) => (
         <div key={index} className="cast-card hover:shadow-md transition-shadow">
-          <h3 className="font-bold text-base md:text-lg truncate">{person.name}</h3>
-          <p className="text-gray-600 text-sm md:text-base">{person.role}</p>
+          <h3 className="font-bold text-base  uppercase md:text-sm truncate">{person.name}</h3>
+          <p className="text-gray-600 text-sm md:text-xs">{person.role}</p>
         </div>
       ))}
     </div>
