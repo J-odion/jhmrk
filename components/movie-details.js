@@ -4,7 +4,7 @@ export default function MovieDetails() {
     tagline: "A love thriller that will be hitting your screens soon",
     director: "JOHNMARK MHENGA IYOO",
     releaseYear: "2025",
-    duration: "2h 15m",
+    duration: "1h 30m",
     genres: ["Romance", "Drama", "Thriller"],
     language: "English",
     rating: "PG-13",

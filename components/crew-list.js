@@ -29,6 +29,7 @@ export default function CrewList() {
     { name: "SOLOMON HUNDU CHAFA (K-HUSH)", role: "PRODUCTION ASSISTANT 3" },
     { name: "EKWA DANIEL KING", role: "PRODUCTION ASSISTANT 4" },
     { name: "Sonia Iwanger Iorkyaa", role: "PRODUCTION ASSISTANT 5" },
+    { name: "Aondona Moses Mellaba", role: "PRODUCTION Coordinator" },
     { name: "Ralph Ogbaje", role: "ASSISTANT Director" },
   ]
 
