@@ -43,7 +43,7 @@ export default function Navbar() {
           Across The Valley
         </a>
 
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden  space-x-8">
           <a
             href="#home"
             className="hover:text-red-500 transition"
@@ -96,7 +96,7 @@ export default function Navbar() {
           </a>
         </div>
 
-        <div className="md:hidden">
+        <div className="hidden">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
@@ -104,7 +104,7 @@ export default function Navbar() {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden bg-black bg-opacity-95 absolute top-16 left-0 right-0 p-4 z-50">
+        <div className="hidden bg-black bg-opacity-95 absolute top-16 left-0 right-0 p-4 z-50">
           <div className="flex flex-col space-y-4">
             <a
               href="#home"
