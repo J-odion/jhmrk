@@ -36,8 +36,7 @@ export default function Home() {
   }, [])
 
   return (
-    // <main className="min-h-screen">
-    <main className="h-screen overflow-y-hidden">
+    <main className="min-h-screen">
       {initialLoading && <LoadingScreen />}
 
       <Navbar />
