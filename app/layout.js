@@ -7,15 +7,15 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Across The Valley",
   description: "A love thriller movie set in Benue state",
-  
+
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-black">
-      {/* <body className={inter.className}> */}
-        {/* <LoadingProvider>{children}</LoadingProvider> */}
+
+      <body className={inter.className}>
+        <LoadingProvider>{children}</LoadingProvider>
       </body>
     </html>
   )
